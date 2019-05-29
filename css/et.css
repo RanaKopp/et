@@ -1,0 +1,136 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background: #222;
+  font-size: 0.7rem;
+}
+h1 {
+  color: white;
+}
+.monster {
+  margin-top: 1em;
+}
+.quantity, .name {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+ul {
+  margin: 0;
+  padding: 0 .2em;
+}
+ul li {
+  display: inline;
+}
+#info_buttons {
+  position: fixed;
+  top: 8px;
+  right: 15px;
+  z-index: 100;
+}
+.btn.btn-secondary.active {
+  color: #222 !important;
+  font-weight: bold;
+  background: #ffffff !important;
+  border-color: #4e555b;
+}
+#img_buttons {
+  position: fixed;
+  top: 8px;
+  left: 15px;
+  z-index: 100;
+}
+.swiper-container {
+  width: 100%;
+  height: 100vh !important;
+}
+.swiper-pagination {
+  position: absolute;
+  top: 90%;
+}
+.et-page {
+  display: inline-block;
+  background: #222;
+  padding: 2px 5px;
+  border: 1px solid #6c757d;
+  border-radius: 5px;
+  color: #fffff0;
+  cursor:pointer;
+}
+.et-page-active {
+  display: inline-block;
+  font-weight: bold;
+  background: #fffff0;
+  padding: 5px;
+  border: 1px solid #fffff0;
+  border-radius: 5px;
+  color: black;
+  cursor:pointer;
+}
+ a {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: black;
+}
+.icon {
+  width: 2em;
+}
+.Neutral {
+  background: #ececec;
+}
+.Wind {
+  background: greenyellow;
+  color: black;
+} 
+.Holy {
+  background: #faffa6;
+  color: black;
+} 
+.Water {
+  background: #b1edff;
+  color: black;
+} 
+.Fire {
+  background: #ffb545;
+  color: black;
+} 
+.Earth {
+  background: #b18a62;
+  color: black;
+} 
+.Undead {
+  background: #292929;
+  color: #eee;
+} 
+.Undead a{
+  color: #eee;
+} 
+.Poison {
+  background: #56fd10;
+  color: black;
+} 
+.Shadow {
+  background: #3e2c48;
+  color: #eee;
+} 
+.Shadow a{
+  color: #eee;
+} 
+.a-Fire {
+  color: #c10000;
+} 
+.a-Water {
+  color: #0374ff;
+} 
+.a-Holy {
+  color: #f3ff8e;
+} 
+.a-Wind {
+  color: #00c32a;
+} 
+.a-Earth {
+  color: #864a0d;
+} 

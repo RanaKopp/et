@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ET Element helper</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/et.css">
+</head>
+
+
+<div class="container-fluid">
+  <div id="img_buttons" class="btn-group btn-group-toggle" data-toggle="buttons">
+    <label class="btn btn-secondary" id="img_off">
+      <input type="radio" name="img_options" value="img_off" class="img_off" autocomplete="off"> Off
+    </label>
+    <label class="btn btn-secondary active" id="img_mvp">
+      <input type="radio" name="img_options" value="img_mvp" class="img_mvp" autocomplete="off" checked> MVP
+    </label>
+    <label class="btn btn-secondary" id="img_all">
+      <input type="radio" name="img_options" value="img_all" class="img_all" autocomplete="off"> All
+    </label>
+  </div>
+  <div id="info_buttons" class="btn-group btn-group-toggle" data-toggle="buttons">
+    <label class="btn btn-secondary" id="info_mini">
+      <input type="radio" name="info_options" value="info_mini" class="info_mini" autocomplete="off"> Mini
+    </label>
+    <label class="btn btn-secondary active" id="info_normal">
+      <input type="radio" name="info_options" value="info_normal" class="info_normal" autocomplete="off" hecked> Normal
+    </label>
+    <label class="btn btn-secondary" id="info_full">
+      <input type="radio" name="info_options" value="info_full" class="info_full" autocomplete="off"> Full
+    </label>
+  </div>
+
+  <!-- Slider main container -->
+  <div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div id="et" class="swiper-wrapper">
+      <!-- Slides -->
+
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-scrollbar"></div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/et_full.js"></script>
+<script src="js/et.js"></script>
+</body>
+
+</html>
