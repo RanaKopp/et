@@ -39,7 +39,7 @@ $(document).ready(function () {
             <li class="size {{size}}">
               {{size}}
             </li>
-            <li class="type {{type}}">
+            <li class="type">
               {{type}}
             </li>
             <li class="element {{element}}">
