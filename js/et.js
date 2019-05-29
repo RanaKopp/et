@@ -17,7 +17,7 @@ $(document).ready(function () {
       {{#monsters}}
       <a href="http://db.irowiki.org/classic/monster-info/{{id}}/" target="_blank">
       <div class="monster card p-1 {{element}}">
-      <div class="text-center ">
+      <div class="text-center">
       <img class="img img-fluid {{#mvp}}mvp{{/mvp}} swiper-lazy" data-src="img/{{id}}.png">
       </div>
         <ul class="details-mini">
@@ -32,9 +32,9 @@ $(document).ready(function () {
           </li>
         </ul>
         <ul class="details-normal">
-          <li class="lvl">
-            <strong>Lv.{{lvl}} </strong>
-          </li>
+            <li class="hp">
+              <strong>{{hp}} HP</strong>
+            </li>
           <div class="float-right">
             <li class="size {{size}}">
               {{size}}
@@ -49,8 +49,8 @@ $(document).ready(function () {
         </ul>
         <ul class="details-full">
           <div class="float-left">
-            <li class="hp">
-              <strong>{{hp}} HP</strong>
+            <li class="lvl">
+              <strong>Lv.{{lvl}} </strong>
             </li>
             <li class="atk d-block">
               <strong>Atk: </strong>{{atk}} 
