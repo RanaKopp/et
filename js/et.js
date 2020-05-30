@@ -13,7 +13,7 @@ $(document).ready(function () {
   {{#et}}
   <div class="col">
     <div class="card p-2">
-    <div class="text-center large"><b><li>Floor {{floor}}</li></b> </div>
+    <div class="text-center large"><b><li>Floor {{floor}}</li></b><br><img class="sg" src="{{sg}}" /> </div>
       {{#monsters}}
       <a href="http://db.irowiki.org/classic/monster-info/{{id}}/" target="_blank">
       <div class="monster card p-1 {{element}}">
@@ -130,15 +130,19 @@ $(document).ready(function () {
   $('#img_off').on('click', function (e) {
     $('img').hide();
     $('.img_off').attr('checked', 'checked');
+    $('.sg').show();
   });
+
   $('#img_mvp').on('click', function (e) {
     $('img').hide();
     $('img.mvp').show();
     $('.img_mvp').attr('checked', 'checked');
+    $('.sg').show();
   });
   $('#img_all').on('click', function (e) {
     $('img').show();
     $('.img_all').attr('checked', 'checked');
+    $('.sg').show();
   });
   // Info buttons
   $('#info_mini').on('click', function (e) {
