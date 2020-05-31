@@ -1,7 +1,18 @@
+var skill=[];
+
+skill["sg"]={"link":"https://cdn.discordapp.com/attachments/612848891561246723/716461825561985116/wz_stormgust.gif"};
+skill["nosg"]={"link":"https://cdn.discordapp.com/attachments/612848891561246723/716461821686448219/nosgg.gif"};
+skill["hd"]={"link":"https://cdn.discordapp.com/attachments/612848891561246723/716461817391742977/hdd.gif"};
+skill["lov"]={"link":"https://cdn.discordapp.com/attachments/612848891561246723/716461819493089311/lovv.gif"};
+skill["sw"]={"link":"https://cdn.discordapp.com/attachments/612848891561246723/716462657200193536/sw.gif"};
+skill["quag"]={"link":"https://cdn.discordapp.com/attachments/612848891561246723/716461822483628082/quag.gif"};
+
+
+
 var et = [
   {
     "floor": 1,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"],skill["lov"]],
     "monsters": [
       {
         "id": 1613,
@@ -97,7 +108,7 @@ var et = [
   },
   {
     "floor": 2,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "id": 1106,
@@ -148,7 +159,7 @@ var et = [
   },
   {
     "floor": 3,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "id": 1016,
@@ -244,7 +255,7 @@ var et = [
   },
   {
     "floor": 4,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "id": 1099,
@@ -340,7 +351,7 @@ var et = [
   },
   {
     "floor": 5,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "id": 1053,
@@ -422,7 +433,7 @@ var et = [
   },
   {
     "floor": 6,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "id": 1721,
@@ -488,7 +499,7 @@ var et = [
   },
   {
     "floor": 7,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "id": 1627,
@@ -554,7 +565,7 @@ var et = [
   },
   {
     "floor": 8,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "id": 1248,
@@ -590,7 +601,7 @@ var et = [
   },
   {
     "floor": 9,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "id": 1040,
@@ -641,7 +652,7 @@ var et = [
   },
   {
     "floor": 10,
-    "sg": "https://cdn.discordapp.com/attachments/612848891561246723/716399495759528057/hd.png",
+    "skills": [skill["sw"],skill["hd"]],
     "monsters": [
       {
         "id": 1303,
@@ -693,7 +704,7 @@ var et = [
   },
   {
     "floor": 11,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "id": 1627,
@@ -759,7 +770,7 @@ var et = [
   },
   {
     "floor": 12,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "id": 1378,
@@ -795,7 +806,7 @@ var et = [
   },
   {
     "floor": 13,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "id": 1188,
@@ -861,7 +872,7 @@ var et = [
   },
   {
     "floor": 14,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "id": 1213,
@@ -942,7 +953,7 @@ var et = [
   },
   {
     "floor": 15,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "id": 1095,
@@ -1040,7 +1051,7 @@ var et = [
   },
   {
     "floor": 16,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "id": 1016,
@@ -1106,7 +1117,7 @@ var et = [
   },
   {
     "floor": 17,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "id": 1065,
@@ -1172,7 +1183,7 @@ var et = [
   },
   {
     "floor": 18,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "id": 1209,
@@ -1208,7 +1219,7 @@ var et = [
   },
   {
     "floor": 19,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "id": 1108,
@@ -1274,7 +1285,7 @@ var et = [
   },
   {
     "floor": 20,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "id": 1071,
@@ -1311,7 +1322,7 @@ var et = [
   },
   {
     "floor": 21,
-    "sg": "https://cdn.discordapp.com/attachments/612848891561246723/716399495759528057/hd.png",
+    "skills": [skill["hd"]],
     "monsters": [
       {
         "id": 1696,
@@ -1392,7 +1403,7 @@ var et = [
   },
   {
     "floor": 22,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 15,
@@ -1488,7 +1499,7 @@ var et = [
   },
   {
     "floor": 23,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 15,
@@ -1569,7 +1580,7 @@ var et = [
   },
   {
     "floor": 24,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 15,
@@ -1620,7 +1631,7 @@ var et = [
   },
   {
     "floor": 25,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 15,
@@ -1672,7 +1683,7 @@ var et = [
   },
   {
     "floor": 26,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 10,
@@ -1753,7 +1764,7 @@ var et = [
   },
   {
     "floor": 27,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 10,
@@ -1849,7 +1860,7 @@ var et = [
   },
   {
     "floor": 28,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 30,
@@ -1915,7 +1926,7 @@ var et = [
   },
   {
     "floor": 29,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 10,
@@ -1996,7 +2007,7 @@ var et = [
   },
   {
     "floor": 30,
-    "sg": "https://cdn.discordapp.com/attachments/612848891561246723/716399495759528057/hd.png",
+    "skills": [skill["hd"]],
     "monsters": [
       {
         "quantity": 30,
@@ -2033,7 +2044,7 @@ var et = [
   },
   {
     "floor": 31,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 20,
@@ -2099,7 +2110,7 @@ var et = [
   },
   {
     "floor": 32,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 10,
@@ -2210,7 +2221,7 @@ var et = [
   },
   {
     "floor": 33,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 15,
@@ -2291,7 +2302,7 @@ var et = [
   },
   {
     "floor": 34,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 20,
@@ -2342,7 +2353,7 @@ var et = [
   },
   {
     "floor": 35,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 10,
@@ -2439,7 +2450,7 @@ var et = [
   },
   {
     "floor": 36,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["lov"]],
     "monsters": [
       {
         "quantity": 30,
@@ -2490,7 +2501,7 @@ var et = [
   },
   {
     "floor": 37,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 30,
@@ -2541,7 +2552,7 @@ var et = [
   },
   {
     "floor": 38,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 25,
@@ -2577,7 +2588,7 @@ var et = [
   },
   {
     "floor": 39,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"],skill["hd"]],
     "monsters": [
       {
         "quantity": 10,
@@ -2658,7 +2669,7 @@ var et = [
   },
   {
     "floor": 40,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 10,
@@ -2755,7 +2766,7 @@ var et = [
   },
   {
     "floor": 41,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 50,
@@ -2776,7 +2787,7 @@ var et = [
   },
   {
     "floor": 42,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 20,
@@ -2857,7 +2868,7 @@ var et = [
   },
   {
     "floor": 43,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 40,
@@ -2923,7 +2934,7 @@ var et = [
   },
   {
     "floor": 44,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["lov"]],
     "monsters": [
       {
         "quantity": 20,
@@ -3004,7 +3015,7 @@ var et = [
   },
   {
     "floor": 45,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 15,
@@ -3071,7 +3082,7 @@ var et = [
   },
   {
     "floor": 46,
-    "sg": "https://cdn.discordapp.com/attachments/612848891561246723/716399495759528057/hd.png",
+    "skills": [skill["hd"]],
     "monsters": [
       {
         "quantity": 20,
@@ -3107,7 +3118,7 @@ var et = [
   },
   {
     "floor": 47,
-    "sg": "https://cdn.discordapp.com/attachments/612848891561246723/716399495759528057/hd.png",
+    "skills": [skill["hd"]],
     "monsters": [
       {
         "quantity": 20,
@@ -3173,7 +3184,7 @@ var et = [
   },
   {
     "floor": 48,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 10,
@@ -3224,7 +3235,7 @@ var et = [
   },
   {
     "floor": 49,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 20,
@@ -3305,7 +3316,7 @@ var et = [
   },
   {
     "floor": 50,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 10,
@@ -3388,7 +3399,7 @@ var et = [
   },
   {
     "floor": 51,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 20,
@@ -3439,7 +3450,7 @@ var et = [
   },
   {
     "floor": 52,
-    "sg": "https://cdn.discordapp.com/attachments/612848891561246723/716399495759528057/hd.png",
+    "skills": [skill["hd"]],
     "monsters": [
       {
         "quantity": 20,
@@ -3535,7 +3546,7 @@ var et = [
   },
   {
     "floor": 53,
-    "sg": "https://cdn.discordapp.com/attachments/612848891561246723/716399495759528057/hd.png",
+    "skills": [skill["hd"]],
     "monsters": [
       {
         "quantity": 30,
@@ -3571,7 +3582,7 @@ var et = [
   },
   {
     "floor": 54,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 10,
@@ -3622,7 +3633,7 @@ var et = [
   },
   {
     "floor": 55,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 25,
@@ -3689,7 +3700,7 @@ var et = [
   },
   {
     "floor": 56,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["lov"]],
     "monsters": [
       {
         "quantity": 15,
@@ -3770,7 +3781,7 @@ var et = [
   },
   {
     "floor": 57,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 25,
@@ -3911,7 +3922,7 @@ var et = [
   },
   {
     "floor": 58,
-    "sg": "https://cdn.discordapp.com/attachments/612848891561246723/716399495759528057/hd.png",
+    "skills": [skill["hd"]],
     "monsters": [
       {
         "quantity": 20,
@@ -3992,7 +4003,7 @@ var et = [
   },
   {
     "floor": 59,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 30,
@@ -4043,7 +4054,7 @@ var et = [
   },
   {
     "floor": 60,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 10,
@@ -4171,7 +4182,7 @@ var et = [
   },
   {
     "floor": 61,
-    "sg": "https://cdn.discordapp.com/attachments/612848891561246723/716399495759528057/hd.png",
+    "skills": [skill["hd"]],
     "monsters": [
       {
         "quantity": 10,
@@ -4267,7 +4278,7 @@ var et = [
   },
   {
     "floor": 62,
-    "sg": "https://cdn.discordapp.com/attachments/612848891561246723/716399495759528057/hd.png",
+    "skills": [skill["hd"]],
     "monsters": [
       {
         "quantity": 35,
@@ -4288,7 +4299,7 @@ var et = [
   },
   {
     "floor": 63,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 20,
@@ -4369,7 +4380,7 @@ var et = [
   },
   {
     "floor": 64,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 30,
@@ -4465,7 +4476,7 @@ var et = [
   },
   {
     "floor": 65,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 20,
@@ -4502,7 +4513,7 @@ var et = [
   },
   {
     "floor": 66,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716392820063338596/nosg.png",
+    "skills": [skill["nosg"]],
     "monsters": [
       {
         "quantity": 20,
@@ -4553,7 +4564,7 @@ var et = [
   },
   {
     "floor": 67,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716392820063338596/nosg.png",
+    "skills": [skill["nosg"]],
     "monsters": [
       {
         "quantity": 10,
@@ -4634,7 +4645,7 @@ var et = [
   },
   {
     "floor": 68,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"],skill["lov"]],
     "monsters": [
       {
         "quantity": 18,
@@ -4715,7 +4726,7 @@ var et = [
   },
   {
     "floor": 69,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 20,
@@ -4796,7 +4807,7 @@ var et = [
   },
   {
     "floor": 70,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 20,
@@ -4849,7 +4860,7 @@ var et = [
   },
   {
     "floor": 71,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716392820063338596/nosg.png",
+    "skills": [skill["nosg"],skill["hd"]],
     "monsters": [
       {
         "quantity": 20,
@@ -4915,7 +4926,7 @@ var et = [
   },
   {
     "floor": 72,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716392820063338596/nosg.png",
+    "skills": [skill["nosg"],skill["hd"]],
     "monsters": [
       {
         "quantity": 10,
@@ -4981,7 +4992,7 @@ var et = [
   },
   {
     "floor": 73,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716392820063338596/nosg.png",
+    "skills": [skill["nosg"],skill["hd"]],
     "monsters": [
       {
         "quantity": 20,
@@ -5077,7 +5088,7 @@ var et = [
   },
   {
     "floor": 74,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716392820063338596/nosg.png",
+    "skills": [skill["nosg"],skill["hd"]],
     "monsters": [
       {
         "quantity": 24,
@@ -5128,7 +5139,7 @@ var et = [
   },
   {
     "floor": 75,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 20,
@@ -5196,7 +5207,7 @@ var et = [
   },
   {
     "floor": 76,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716392820063338596/nosg.png",
+    "skills": [skill["nosg"],skill["hd"]],
     "monsters": [
       {
         "quantity": 30,
@@ -5247,7 +5258,7 @@ var et = [
   },
   {
     "floor": 77,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716392820063338596/nosg.png",
+    "skills": [skill["nosg"],skill["hd"]],
     "monsters": [
       {
         "quantity": 30,
@@ -5328,7 +5339,7 @@ var et = [
   },
   {
     "floor": 78,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["hd"],skill["sg"]],
     "monsters": [
       {
         "quantity": 20,
@@ -5409,7 +5420,7 @@ var et = [
   },
   {
     "floor": 79,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 10,
@@ -5490,7 +5501,7 @@ var et = [
   },
   {
     "floor": 80,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sw"]],
     "monsters": [
       {
         "quantity": 15,
@@ -5527,7 +5538,7 @@ var et = [
   },
   {
     "floor": 81,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 20,
@@ -5578,7 +5589,7 @@ var et = [
   },
   {
     "floor": 82,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716392820063338596/nosg.png",
+    "skills": [skill["nosg"]],
     "monsters": [
       {
         "quantity": 10,
@@ -5659,7 +5670,7 @@ var et = [
   },
   {
     "floor": 83,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 10,
@@ -5725,7 +5736,7 @@ var et = [
   },
   {
     "floor": 84,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 20,
@@ -5821,7 +5832,7 @@ var et = [
   },
   {
     "floor": 85,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["quag"],skill["sw"]],
     "monsters": [
       {
         "quantity": 1,
@@ -5843,7 +5854,7 @@ var et = [
   },
   {
     "floor": 86,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 10,
@@ -5909,7 +5920,7 @@ var et = [
   },
   {
     "floor": 87,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 20,
@@ -5975,7 +5986,7 @@ var et = [
   },
   {
     "floor": 88,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 15,
@@ -6056,7 +6067,7 @@ var et = [
   },
   {
     "floor": 89,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 6,
@@ -6122,7 +6133,7 @@ var et = [
   },
   {
     "floor": 90,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["quag"],skill["sw"]],
     "monsters": [
       {
         "quantity": 10,
@@ -6189,7 +6200,7 @@ var et = [
   },
   {
     "floor": 91,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 30,
@@ -6240,7 +6251,7 @@ var et = [
   },
   {
     "floor": 92,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716392820063338596/nosg.png",
+    "skills": [skill["nosg"]],
     "monsters": [
       {
         "quantity": 15,
@@ -6321,7 +6332,7 @@ var et = [
   },
   {
     "floor": 93,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 15,
@@ -6387,7 +6398,7 @@ var et = [
   },
   {
     "floor": 94,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 15,
@@ -6423,7 +6434,7 @@ var et = [
   },
   {
     "floor": 95,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["quag"],skill["sw"]],
     "monsters": [
       {
         "quantity": 30,
@@ -6505,7 +6516,7 @@ var et = [
   },
   {
     "floor": 96,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 5,
@@ -6556,7 +6567,7 @@ var et = [
   },
   {
     "floor": 97,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["quag"],skill["sw"]],
     "monsters": [
       {
         "quantity": 5,
@@ -6622,7 +6633,7 @@ var et = [
   },
   {
     "floor": 98,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 2,
@@ -6718,7 +6729,7 @@ var et = [
   },
   {
     "floor": "99 Random 7 of the following monster (Can have duplicates):",
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 2,
@@ -7159,7 +7170,7 @@ var et = [
   },
   {
     "floor": 100,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716393319562739835/sg.png",
+    "skills": [skill["sg"]],
     "monsters": [
       {
         "quantity": 1,
@@ -7256,7 +7267,7 @@ var et = [
   },
   {
     "floor": 101,
-    "sg": "https://cdn.discordapp.com/attachments/708598256644390925/716392820063338596/nosg.png",
+    "skills": [skill["quag"],skill["sw"]],
     "monsters": [
       {
         "quantity": 10,

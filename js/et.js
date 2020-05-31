@@ -13,7 +13,7 @@ $(document).ready(function () {
   {{#et}}
   <div class="col">
     <div class="card p-2">
-    <div class="text-center large"><b><li>Floor {{floor}}</li></b><br><img class="sg" src="{{sg}}" /> </div>
+    <div class="text-center large"><b><li>Floor {{floor}}</li></b><br>{{#skills}}<img class="sg" src="{{link}}" />{{/skills}} </div>
       {{#monsters}}
       <a href="http://db.irowiki.org/classic/monster-info/{{id}}/" target="_blank">
       <div class="monster card p-1 {{element}}">
@@ -84,6 +84,8 @@ $(document).ready(function () {
     (lower) + ' - ' +
     (upper) +
     '</div > ');
+
+
   $('#et').append(Mustache.render(TSlider, { range: "101" }));
   $('#101').append(Mustache.render(TMonster, { et: et[100] }));
 
